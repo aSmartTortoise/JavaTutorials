@@ -1,0 +1,56 @@
+# Built application �ļ�
+*.apk
+*.ap_
+
+# ART/Dalvik VM �ļ�
+*.dex
+
+# Java class �ļ�
+*.class
+
+# Generated �ļ���
+bin/
+gen/
+out/
+.idea/
+
+# Gradle files
+.gradle/
+build/
+target/
+
+# ���������ļ� (sdk path, etc)
+local.properties
+
+# Eclipse���ɵ�Proguard�ļ���
+proguard/
+
+# ��־�ļ�
+*.log
+
+# Android Studio�����༭����ʱ�ļ�
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ (IDE�����ļ�)
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+
+# ��Կ������ļ�
+# �������������Կ���ļ�����ȡ��ע��������
+#*.jks
+
+# ��Android Studio 2.2�����߰汾�����ɵ��ⲿԭ�������ļ���
+.externalNativeBuild
+
+# Google���� (e.g. APIs or Firebase)
+google-services.json
+
