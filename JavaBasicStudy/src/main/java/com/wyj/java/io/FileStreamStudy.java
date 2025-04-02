@@ -13,7 +13,7 @@ public class FileStreamStudy {
         String path = "Java基础.md";
         File file = new File(path);
         System.out.println("absolute path:" + file.getAbsolutePath());
-        String filePath = "D:\\study\\Java\\github\\JavaTutorials\\JavaBasicStudy\\src" +
+        String filePath = "D:\\jackie\\study\\Java\\github\\JavaTutorials\\JavaBasicStudy\\src" +
                 "\\main\\java\\com\\wyj\\java\\io\\Animal.java";
         File file1 = new File(filePath);
         System.out.println("directoryFile exist:" + file1.exists());
