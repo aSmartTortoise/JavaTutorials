@@ -7,9 +7,9 @@ import java.util.List;
 public class HashMapStudy {
     public static void main(String[] args) {
 
-//        hashFunctionStudy();
+        hashFunctionStudy();
 //        sameIndex_capacity_16();
-        index_capacity_32();
+//        index_capacity_32();
     }
 
     /**

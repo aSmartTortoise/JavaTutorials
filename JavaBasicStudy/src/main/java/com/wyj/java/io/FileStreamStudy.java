@@ -17,7 +17,7 @@ public class FileStreamStudy {
                 "\\main\\java\\com\\wyj\\java\\io\\Animal.java";
         File file1 = new File(filePath);
         System.out.println("directoryFile exist:" + file1.exists());
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(file.getAbsolutePath()))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
