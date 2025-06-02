@@ -7,9 +7,9 @@ import java.util.List;
 public class HashMapStudy {
     public static void main(String[] args) {
 
-        hashFunctionStudy();
+//        hashFunctionStudy();
 //        sameIndex_capacity_16();
-//        index_capacity_32();
+        index_capacity_32();
     }
 
     /**
@@ -80,7 +80,7 @@ public class HashMapStudy {
             int h, n = 16;
             int hash = (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
             int i = (n - 1) & hash;
-            System.out.println(key + "的hash值 : " + hash +" 的索引 : " + i);
+            System.out.println(key + "的hash值 : " + hash +"；的索引 : " + i);
         }
     }
 }
