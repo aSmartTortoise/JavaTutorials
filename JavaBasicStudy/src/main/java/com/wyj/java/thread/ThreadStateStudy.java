@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 public class ThreadStateStudy {
     public static void main(String[] args) throws InterruptedException {

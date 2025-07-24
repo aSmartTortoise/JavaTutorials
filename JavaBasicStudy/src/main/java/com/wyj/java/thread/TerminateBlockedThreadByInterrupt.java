@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 public class TerminateBlockedThreadByInterrupt extends Thread{
     @Override

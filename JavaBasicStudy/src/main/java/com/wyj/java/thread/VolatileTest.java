@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 /**
  *  volatile修饰的变量不能保证并发访问共享变量的安全。

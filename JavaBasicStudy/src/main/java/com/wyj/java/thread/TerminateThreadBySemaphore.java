@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 public class TerminateThreadBySemaphore extends Thread{
     volatile boolean stop = false;

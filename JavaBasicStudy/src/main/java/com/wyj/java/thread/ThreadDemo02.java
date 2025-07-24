@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 public class ThreadDemo02 {
     private static int count = 0;

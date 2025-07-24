@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread;
 
 import java.text.SimpleDateFormat;
 import java.util.concurrent.Callable;

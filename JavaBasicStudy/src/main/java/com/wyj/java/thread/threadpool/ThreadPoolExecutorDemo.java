@@ -1,4 +1,4 @@
-package com.wyj.thread;
+package com.wyj.java.thread.threadpool;
 
 import java.util.concurrent.*;
 
@@ -14,7 +14,7 @@ public class ThreadPoolExecutorDemo {
                 CORE_POOL_SIZE,
                 MAXIMUM_POOL_SIZE,
                 KEEP_ALIVE_TIME,
-                TimeUnit.NANOSECONDS,
+                TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(QUEUE_CAPACITY),
                 new ThreadPoolExecutor.CallerRunsPolicy());
         for (int i = 0; i < 10; i++) {
